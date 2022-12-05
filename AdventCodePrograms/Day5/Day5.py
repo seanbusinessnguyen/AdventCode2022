@@ -8,8 +8,8 @@ mapping = {'1': stack1, '2': stack2, '3': stack3}
 
 def moveCrate(moveFrom, moveTo, moveAmt):
     for x in range(moveAmt):
-        crate = mapping[moveFrom].pop(len(mapping[moveFrom]) - 1)
-        updatedStack = mapping[moveTo].append(crate)
+        crate = mapping[moveFrom].pop()
+        mapping[moveTo].append(crate)
         # print('updated stack')
         # print(mapping[moveTo])
 
