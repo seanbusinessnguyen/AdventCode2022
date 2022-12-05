@@ -1,15 +1,32 @@
 fileInput = open('input.txt', 'r')
 
-stack1 = ['Z', 'N']
-stack2 = ['M', 'C', 'D']
-stack3 = ['P']
+# test
+# stack1 = ['Z', 'N']
+# stack2 = ['M', 'C', 'D']
+# stack3 = ['P']
 
-mapping = {'1': stack1, '2': stack2, '3': stack3}
+#input
+stack1 = ['F','D','B','Z','T','J','R','N']
+stack2 = ['R','S','N','J','H']
+stack3 = ['C','R','N','J','G','Z','F','Q']
+stack4 = ['F','V','N','G','R','T','Q']
+stack5 = ['L','T','Q','F']
+stack6 = ['Q','C','W','Z','B','R','G','N']
+stack7 = ['F','C','L','S','N','H','M']
+stack8 = ['D','N','Q','M','T','J']
+stack9 = ['P','G','S']
+
+mapping = {'1': stack1, '2': stack2, '3': stack3, '4': stack4,
+           '5': stack5,'6': stack6,'7': stack7,'8': stack8,
+           '9': stack9,}
 
 def moveCrate(moveFrom, moveTo, moveAmt):
     for x in range(moveAmt):
         crate = mapping[moveFrom].pop()
+        print('grabbing crate..', crate)
         mapping[moveTo].append(crate)
+        print('adding crate to..', mapping[moveTo])
+        print()
         # print('updated stack')
         # print(mapping[moveTo])
 
@@ -20,6 +37,12 @@ def currentCrate():
     print("Stack1 = ", stack1)
     print("Stack2 = ", stack2)
     print("Stack3 = ", stack3)
+    print("Stack4 = ", stack4)
+    print("Stack5 = ", stack5)
+    print("Stack6 = ", stack6)
+    print("Stack7 = ", stack7)
+    print("Stack8 = ", stack8)
+    print("Stack9 = ", stack9)
     print()
 
 # read in first line = top of stack
