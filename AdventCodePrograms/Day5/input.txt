@@ -491,13 +491,7 @@ move 2 from 2 to 4
 move 1 from 6 to 7
 move 1 from 4 to 3
 move 8 from 3 to 5
-move 1 from 3 to 4
-move 17 from 1 to 3
-move 15 from 3 to 7
-move 3 from 4 to 1
-move 6 from 8 to 9
-move 6 from 9 to 1
-move 2 from 3 to 1
-move 2 from 5 to 2
-move 6 from 7 to 6
-move 3 from 6 to 9
+bvwbjplbgvbhsrlpgdmjqwftvncz: first marker after character 5
+nppdvjthqldpwncqszvftbrmjlhg: first marker after character 6
+nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg: first marker after character 10
+zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw: first marker after character 11
